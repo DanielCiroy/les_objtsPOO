@@ -1,24 +1,14 @@
+
+
 <?php
- require_once('cart.php');
+
+
+ require('figure.php');
+
+ $carre= new figure();
+  $carre->longueur=100;
+  $carre->largeur=100;
+ $carre->surface(100,100);
+
+ var_dump($carre->surface());
  
- $merlin = new personnage("merlin");
- $merlin->age=52;
- $merlin -> regenerer();
-
- $merlin-> atk=100;
- 
-
- var_dump($merlin);
-
-
- $harry= new personnage("harry");
- $harry->regenerer();
- $harry-> age=25;
-
- var_dump($harry);
-
- 
-
-
-
-
