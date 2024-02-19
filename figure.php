@@ -1,10 +1,10 @@
 
 <?php
 class figure{
-  public  $longueur=50;
-  public  $largeur=5.5;
+  protected  $longueur=50;
+  protected  $largeur=5.5;
 
-  public function surface(){
+  protected function surface(){
     return $this->longueur*$this->largeur;
 
   }
