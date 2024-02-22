@@ -4,8 +4,8 @@
 <?php
 
   class personne{
-    private $nom='dani';
-    private $age=20;
+    protected $nom;
+    protected $age;
 
 
     public function getNom(){
@@ -26,7 +26,7 @@
     }
 
     public function presention(){
-        echo"bonjour je suis $this->nom et j'ai $this->age";
+        echo"bonjour je suis $this->nom et j'ai $this->age ans";
     }
 
 
