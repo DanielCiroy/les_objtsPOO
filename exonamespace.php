@@ -2,17 +2,17 @@
 
 namespace Forum;
 class message{
-    public $sms="bonjour a tous";
+ public $msg='vous etes dans forum';
 }
 
 namespace Messenger;
 class message{
-   public $sms="bonjour tout le monde";
+public $msg='vous etes dans messenger';
 }
 
-$Forummessage= new \Forum\message;
+$ForumMessage=new \Forum\message;
 
-$Messengermessage= new \Messenger\message;
+$MessengerMessage= new \Messenger\message;
 
-var_dump($Forummessage);
-var_dump($Messengermessage);
+var_dump($ForumMessage);
+var_dump($MessengerMessage);
